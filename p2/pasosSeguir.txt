@@ -1,6 +1,0 @@
-al hacer lo de RPCGEN -a calculadora.x se crea solo todo.
-Despues hay que tocar el cliente para añadir lo que hace cada operación que en verdad es hacer un return de cada operación y en el cliente hay que hacer unos pocos mas de cambios, en el void calculadora_prog_1 tenemos que añadir como parametros la estructura de los numeros que le vamos a pasar para hacer las operaciones y también una cadena para elegir la operacion deseada.Además en el main pues hacemos lo necesario para pedir por pantalla los numeros con los que hacer las operaciones y para pedir la operacion.
-
-DONDE MAS HAY QUE CAMBIAR ES LA FUNCION CALCULADORA_PROG_1, se cambia de void a int para que retorne el resultado de laoperacion elegida, despues solo se deja el CLIENT *clnt y un puntero de resultado solo de todos los que se crean, entonces tamb se cambian todos a result_1 (todos los result 1 antes eran diferentes numeros), tambien se cambian el primer parametro de la funciones de las distintas operaciones para pasarle los numeros(operandos) y metemos los if-else ya sabemos para que.
-
-
